@@ -1,0 +1,29 @@
+$color: red;
+
+ul {
+    font-size: 14px;
+    color: $color
+}
+
+ol {
+    font-size: 18px;
+    color: $color
+}
+
+#beepico {
+    height: 30px;
+    width: 30px;
+}
+
+@media (min-width: 799px) {
+    
+    .plaintext {
+        font-size: 35px;
+    }
+}
+@media (max-width: 699px) {
+    
+    .plaintext {
+        font-size: 15px;
+    }
+}
